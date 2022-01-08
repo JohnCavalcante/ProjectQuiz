@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Outfit:wght@300&family=Ubuntu:wght@300&display=swap');
+
+body {
+    background: #3966b1;
+    font-family: 'Chela One', cursive;
+
+}
+
+img.displayed1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.section_questoes, .section_apresentacao {
+    width: 70%;
+    margin: 1em auto;
+    position: relative;
+    border-color: #f3f3f3;
+    border-width: 5px;
+    border-style: hidden;
+
+}
+.section_questoes #controle, .section_apresentacao #controle  {
+    background: #ffaa0c;
+    height: 80px;
+    display: flex;
+    border-radius: 0px 0px 10px 10px;
+}
+.section_questoes #questoes, .section_apresentacao #alunos {
+    background: #e6e6e6;
+    border-radius: 20px 20px 0px 0px;
+    border-width: 5px;
+}
+button {
+    display: none;
+    margin: 30px 20px;
+    width: 9em;
+    height: 3em;
+    padding: 15px 31px;
+    text-align: center;
+    text-decoration:solid;
+    color:rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Chela One', cursive; 
+    margin: 20px 5px;
+    border-radius: 13px;
+    background-color: #3966b1;
+    border:#ffffff;
+
+}
+#btiniciar {
+    display: none;
+    margin-left: 70px;
+    width: 9em;
+    height: 3em;
+    padding: 15px 31px;
+    text-align: center;
+    text-decoration:solid;
+    color:#ffaa0c;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Chela One', cursive; 
+    margin: 20px 5px;
+    border-radius: 13px;
+    background-color: #3966b1;
+    border:#ffffff;
+
+}
+.section_questoes #perguntas {
+    height: 100px;
+}
+.section_apresentacao #alunos {
+    height: 210px;
+}
+#perguntas p {
+    color: rgb(255, 165, 47);
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    font-size: 30px;
+}
+#alunos h1{
+    margin: 0;
+    text-align: center;
+    background: #ff0e42;
+    padding: 4px;
+    color: #ffffff;
+    border-radius: 20px;
+}
+#alunos p {
+    margin: auto;
+    padding:  10px;
+    text-align: center;
+    color: #3f3f3f;
+
+}
+.section_questoes #alternativas {
+    height: 130px;
+    margin: 0;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-radius: 0px 0px 20px 20px;
+    font-size: 20px;
+
+ }
+ 
+ .section_questoes #resposta { 
+    display: flex;
+    float: right;
+    padding-right: 30em;
+    padding: 0.1rem 1rem;
+    border-radius: 10px;
+    background: #ffe366;
+ }*
+ #perguntas{
+     width: 100%;
+     height: 100%;
+     opacity: 1;
+ }
+    
+ 
+    
+
+ 
+
+
+

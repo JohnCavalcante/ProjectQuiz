@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>Projeto - Quiz Arte </title>
+	<meta name="viewport" content="width=device-width">
+	<meta charset="utf-8">
+	<meta name="author" content="John Cavalcante, Lucineide chagas e José Lima">
+	<link rel="stylesheet" type="text/css" href="stilo.css">
+</head>
+<script src="jquery-3.5.1.min.js"></script>
+<script src="script.js"></script>
+<body>
+	<img class="displayed1" src="img/pergunta.png" alt="Card image" style="width:10%"/><br>
+	<img class="displayed1" src="img/quiz.jpg" alt="Card image" style="width:12%"/>
+	<section class="section_apresentacao">
+		<div id="alunos">
+			<h1>Projeto desenvolvido por:</h1>
+			<div id="aluno1"></div>
+			<p>Johnatan Cavalcante</p>
+			<div id="aluno2"></div>
+			<p>Lucineide Chagas</p>
+			<div id="aluno3"></div>
+			<p>José Lima</p>
+			<div id="img"><img id src="img/owl.png" style="width:10%" ></div>
+
+		</div>
+		<div id="controle">
+			<button id="btiniciar" onclick="iniciar()"> Vamos lá </button>
+		</div>
+	</section>
+
+	<section class="section_questoes">
+		<div id="questoes">
+			<div id="resultado">
+			</div>
+			<div id="perguntas">
+			</div>
+			<div id="alternativas">
+			</div>
+		</div>
+		<div id="controle">
+			<button id="btconfirmar" onclick="confirmar()"> Confirmar </button>
+			<button id="btavancar" onclick="avancar()"> Próxima </button>
+			<button id="btreiniciar" onclick="reiniciar()"> Reiniciar </button>
+			<button id="btsair"> Sair </button>
+
+		</div>
+	</section>
+
+</body>
+
+
+</html>
